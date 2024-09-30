@@ -1,7 +1,7 @@
 document.getElementById('pinForm').addEventListener('submit', function(event) {
     event.preventDefault(); // Mencegah form submit default
 
-    const correctPin = "051206"; // PIN yang benar
+    const correctPin = "king051206petot0821"; // PIN yang benar
     const enteredPin = document.getElementById('pin').value;
     const errorMessage = document.getElementById('error-message');
 
